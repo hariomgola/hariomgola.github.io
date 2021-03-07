@@ -82,7 +82,7 @@ header._Scroll ul li a
 {
     position: relative;
     min-height: 100vh;
-    background:url("./_bg.jpg");
+    background:url("./bg.jpg");
     background-size: cover;
     background-position: right;
     display: flex;
@@ -426,7 +426,7 @@ img
     {
         width: 40px;
         height: 40px;
-        background: url("https://hariomgola.github.io/resume/Image_toggle/toggle_open.png");
+        background: url("./open.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px;
@@ -434,7 +434,7 @@ img
     }
     .toggle.active
     {
-        background: url("https://hariomgola.github.io/resume/Image_toggle/toggle_close.png");
+        background: url("./close.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
