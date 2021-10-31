@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -118,6 +119,7 @@ header._Scroll ul li a {
 .heading h2 {
   font-weight: 600;
   font-size: 30px;
+  font-family: 'Bungee Inline', cursive;
 }
 .content {
   display: flex;
@@ -129,6 +131,10 @@ header._Scroll ul li a {
 .content_boX h3 {
   font-size: 24px;
   margin-bottom: 10px;
+}
+.content_boX p {
+  font-size: 24px;
+  font-family: "Caveat", cursive;
 }
 .w50 {
   min-width: 50%;
